@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.shape.Arc?>
+
+<Pane fx:id="pacMan" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="768.0" prefWidth="1366.0" xmlns="http://javafx.com/javafx/8.0.172-ea" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.desktopapp.PacController">
+   <children>
+      <Arc fx:id="pacMan" fill="DODGERBLUE" layoutX="180.0" layoutY="650.0" length="330.0" onMouseClicked="#funcao" radiusX="50.0" radiusY="50.0" rotate="30.0" startAngle="45.0" stroke="BLACK" strokeType="INSIDE" type="ROUND" />
+   </children>
+</Pane>
